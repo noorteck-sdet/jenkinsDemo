@@ -14,7 +14,7 @@ public class LoginStep {
 	
 	WebDriver driver;
 	
-	//Solia
+	//Solia 2
 	@Given("User navigates to login page {string}")
 	public void user_navigates_to_login_page(String url) throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
